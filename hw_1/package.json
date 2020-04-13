@@ -1,0 +1,18 @@
+{
+  "name": "hw_1",
+  "version": "1.0.0",
+  "description": "Node js Hillel homework number 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env EXT='[\".mp3\", \".acc\"]' node app.js --colors='[\"blue\", \"red\"]' --deep=0 --path='~/Projects/Hillel/hillel_node/hw_1/files'",
+    "start:dev": "cross-env EXT='[\".mp3\"]' node app.js --colors='[\"blue\", \"red\", \"green\"]' --deep=3 --path='~/Projects/Hillel/hillel_node/hw_1/files'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "cross-env": "^7.0.2",
+    "minimist": "^1.2.5"
+  }
+}
